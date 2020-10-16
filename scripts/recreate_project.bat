@@ -1,2 +1,4 @@
-../premake5 clean
-../premake5 vs2019
+pushd %~dp0..\
+premake5.exe clean
+premake5.exe vs2019
+popd
